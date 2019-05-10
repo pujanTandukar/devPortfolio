@@ -1,0 +1,247 @@
+.frontPage {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	font-size: 100px;
+}
+
+.projectShowcase {
+	width: 100vw;
+}
+
+.blockProject {
+	width: 30%;
+	/* background-color: red; */
+	text-align: center;
+	margin-bottom: 20px;
+}
+.Project {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainLogo {
+	width: 50%;
+}
+.titleLogo {
+	height: 20vh;
+}
+h5 {
+	margin: 0%;
+	color: gray;
+	text-align: left !important;
+}
+h4 {
+	text-align: left !important;
+}
+.titlePage {
+	height: 12vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0%;
+}
+.programInfo {
+	color: #303131;
+}
+.programType {
+	display: inline block;
+	float: left;
+}
+.programlanguages1 {
+	display: inline block;
+	color: #b24450;
+	float: right;
+}
+.programlanguages2 {
+	display: inline block;
+	color: #439f8f;
+	/* color: #E8BD4B; */
+	float: right;
+}
+.programlanguages3 {
+	display: inline block;
+	color: #4276a9;
+	float: right;
+}
+.blockPhoto1 {
+	height: 30vh;
+	background-color: #b24450;
+}
+.blockPhoto2 {
+	height: 30vh;
+	background-color: #439f8f;
+}
+.blockPhoto3 {
+	height: 30vh;
+	background-color: #4276a9;
+}
+p {
+	color: #303131;
+}
+.paraBox {
+	width: 50%;
+	margin-left: 22.5%;
+	margin-top: 2%;
+	background-color: #a5dff9;
+	padding: 30px;
+	border-radius: 5px;
+}
+.moreSoon {
+	width: 100vw;
+	text-align: center;
+}
+.aboutMe {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 2%;
+	text-align: center;
+}
+/* Position and sizing of burger button */
+.bm-burger-button {
+	position: fixed;
+	width: 36px;
+	height: 30px;
+	left: 36px;
+	top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+	overflow: hidden;
+	background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+	background: #e01e3d;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+	height: 24px;
+	width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+	background: #bdc3c7;
+}
+
+*:focus {
+	outline: 0;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+	position: fixed;
+	height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+	background: #fafaff;
+	padding: 2.5em 1.5em 0;
+	font-size: 1.3em;
+	overflow: hidden !important;
+}
+
+.menu-item {
+	display: flex !important;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+	color: #b8b7ad;
+}
+h3 {
+	margin: 0%;
+	font-size: 1.3em;
+}
+.luckyh3 {
+	color: #e01e3d;
+}
+a {
+	color: #303131;
+	height: 3em;
+	width: 100%;
+	margin-top: 5px;
+	align-items: center;
+	justify-content: center;
+}
+
+h4 {
+	margin: 0%;
+	margin-top: 2vh;
+}
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e01e3d;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: 'GoogleSans';
+	src: local('GoogleSans'), url(./GoogleSans.ttf) format('ttf');
+}
+
+* {
+	font-family: 'GoogleSans';
+}
+
+label {
+	display: block;
+}
+
+.typeInput {
+	width: 20vw;
+	height: 2vh;
+	border-color: #303131;
+}
+
+.typeInputComment {
+	height: 10vh;
+	width: 20vw;
+	border-color: #303131;
+	border-bottom-width: 3 px;
+}
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.submitButton {
+	background-color: #e01e3d; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-top: .8%;
+}
